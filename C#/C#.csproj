@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractFactory\IType.cs" />
+    <Compile Include="AbstractFactory\Main.cs" />
+    <Compile Include="AbstractFactory\TypeClass.cs" />
+    <Compile Include="AbstractFactory\TypeFactory.cs" />
     <Compile Include="FactoryMethod\IProduct.cs" />
     <Compile Include="FactoryMethod\Main.cs" />
     <Compile Include="FactoryMethod\ProductClass.cs" />

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace C_.FactoryMethod
+﻿namespace C_.FactoryMethod
 {
     /// <summary>
     /// 电子商品
@@ -15,6 +9,7 @@ namespace C_.FactoryMethod
         {
             return SetProduct(new ElectronicProduct());
         }
+
         public ElectronicProductFactory()
         {
             CreateProduct();
@@ -30,6 +25,7 @@ namespace C_.FactoryMethod
         {
             return SetProduct(new FoodProduct());
         }
+
         public FoodProductFactory()
         {
             CreateProduct();
@@ -45,6 +41,7 @@ namespace C_.FactoryMethod
         {
             return SetProduct(new ClothingProduct());
         }
+
         public ClothingProductFactory()
         {
             CreateProduct();

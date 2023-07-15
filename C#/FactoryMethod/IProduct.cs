@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace C_.FactoryMethod
+﻿namespace C_.FactoryMethod
 {
     /// <summary>
     /// 用户信息
@@ -23,11 +17,13 @@ namespace C_.FactoryMethod
             get => _id;
             private set => _id = value;
         }
+
         public string Name
         {
             get => _name;
             private set => _name = value;
         }
+
         public decimal Price
         {
             get => _price;
@@ -39,11 +35,13 @@ namespace C_.FactoryMethod
             get => _isVip;
             private set => _isVip = value;
         }
+
         public string City
         {
             get => _city;
             private set => _city = value;
         }
+
         public int Age
         {
             get => _age;
@@ -59,7 +57,6 @@ namespace C_.FactoryMethod
             _city = City;
             _age = age;
         }
-
     }
 
     /// <summary>

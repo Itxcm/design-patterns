@@ -17,7 +17,6 @@ namespace C_.FactoryMethod
             {
                 Console.WriteLine($"{xcm.Name}无法购买!");
             }
-
         }
 
         private static User CreateUser()
@@ -25,5 +24,5 @@ namespace C_.FactoryMethod
             return new User("徐晨明", 9999, true, "北京", 19);
         }
     }
-
+    x
 }
